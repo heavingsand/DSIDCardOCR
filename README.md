@@ -1,8 +1,8 @@
 # DSIDCardOCR
 
-[![Platform](https://img.shields.io/badge/platform-iOS-red.svg)]
-[![Language](https://img.shields.io/badge/Language-Object--C-blue.svg)]
-[![Version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg)]
+![Platform](https://img.shields.io/badge/platform-iOS-red.svg)
+![Language](https://img.shields.io/badge/Language-Object--C-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg)
 
 ## 项目简介
 二代身份证扫描,可自动快速读出身份证上的信息（姓名、性别、民族、住址、身份证号码）并截取到身份证图像
