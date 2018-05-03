@@ -23,21 +23,21 @@ Privacy - Photo Library Usage Description       是否允许访问相册
 
 3、在Build Setting里面搜索BitCode, 将YES改为NO
 
-5、在你的项目中的相应处导入CaptureViewController头文件: 
+4、在你的项目中的相应处导入CaptureViewController头文件: 
 
-`#import "CaptureViewController.h"`
+#import "CaptureViewController.h"
 
 在使用该功能的地方初始化控制器, 并且选择身份证正反面, 已经在结果回调(result和image)里面处理相关逻辑：
 
-`CaptureViewController *captureVC = [[CaptureViewController alloc] init];`
+CaptureViewController *captureVC = [[CaptureViewController alloc] init];
 
-`captureViewController.scanType = BackOfIDCardScan;`
+captureViewController.scanType = BackOfIDCardScan;
 
-`captureViewController.IDCardInfoBlock = ^(IDCardModel *result, UIImage *image) {
+captureViewController.IDCardInfoBlock = ^(IDCardModel *result, UIImage *image) {
     ......
- };`
+};
 
-`[self.navigationController pushViewController:captureVC animated:YES];`
+[self.navigationController pushViewController:captureVC animated:YES];
 
 ```
 
