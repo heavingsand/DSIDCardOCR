@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    BaseViewController *baseVC = [[UIStoryboard storyboardWithName:@"BaseViewController" bundle:nil] instantiateViewControllerWithIdentifier:@"BaseViewController"];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController: baseVC];
     return YES;
 }
 

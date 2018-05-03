@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IDCardScaningView.h
 //  IDCardOCRDemo
 //
 //  Created by iOS Pan on 2018/5/3.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface IDCardScaningView : UIView
 
+@property (nonatomic,assign) CGRect facePathRect;
 
 @end
-

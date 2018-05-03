@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1CCA1C7A209AE57D00B90C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C79209AE57D00B90C2A /* AppDelegate.m */; };
-		1CCA1C7D209AE57D00B90C2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C7C209AE57D00B90C2A /* ViewController.m */; };
 		1CCA1C80209AE57D00B90C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA1C7E209AE57D00B90C2A /* Main.storyboard */; };
 		1CCA1C82209AE57E00B90C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA1C81209AE57E00B90C2A /* Assets.xcassets */; };
 		1CCA1C85209AE57E00B90C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA1C83209AE57E00B90C2A /* LaunchScreen.storyboard */; };
 		1CCA1C88209AE57E00B90C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C87209AE57E00B90C2A /* main.m */; };
 		1CCA1C92209AE57E00B90C2A /* IDCardOCRDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C91209AE57E00B90C2A /* IDCardOCRDemoTests.m */; };
 		1CCA1C9D209AE57E00B90C2A /* IDCardOCRDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C9C209AE57E00B90C2A /* IDCardOCRDemoUITests.m */; };
+		1CCA1CAB209AF2CD00B90C2A /* BaseViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA1CAA209AF2CD00B90C2A /* BaseViewController.storyboard */; };
+		1CCA1CAE209AF36400B90C2A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1CAD209AF36400B90C2A /* TableViewController.m */; };
+		1CCA1CB1209AF71A00B90C2A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1CB0209AF71A00B90C2A /* BaseViewController.m */; };
+		1CCA1CB9209AFE0800B90C2A /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCA1CB4209AFE0800B90C2A /* libexidcardios.a */; };
+		1CCA1CBA209AFE0800B90C2A /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA1CB6209AFE0800B90C2A /* zocr0.lib */; };
+		1CCA1CBE209AFECC00B90C2A /* IDCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1CBD209AFECC00B90C2A /* IDCardModel.m */; };
+		1CCA1CC2209AFFDD00B90C2A /* IDCardScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1CC1209AFFDD00B90C2A /* IDCardScaningView.m */; };
+		1CCA1CC6209B008800B90C2A /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1CC5209B008800B90C2A /* RectManager.m */; };
+		1CCA1CCE209B013F00B90C2A /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1CCD209B013F00B90C2A /* UIImage+Extend.m */; };
+		1CCA1CD1209B018D00B90C2A /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1CD0209B018D00B90C2A /* UIAlertController+Extend.m */; };
+		1CCA1CD4209B01DB00B90C2A /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1CD3209B01DB00B90C2A /* CaptureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +48,6 @@
 		1CCA1C75209AE57D00B90C2A /* IDCardOCRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDCardOCRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCA1C78209AE57D00B90C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CCA1C79209AE57D00B90C2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1CCA1C7B209AE57D00B90C2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1CCA1C7C209AE57D00B90C2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1CCA1C7F209AE57D00B90C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CCA1C81209AE57E00B90C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CCA1C84209AE57E00B90C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,27 @@
 		1CCA1C98209AE57E00B90C2A /* IDCardOCRDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDCardOCRDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCA1C9C209AE57E00B90C2A /* IDCardOCRDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardOCRDemoUITests.m; sourceTree = "<group>"; };
 		1CCA1C9E209AE57E00B90C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCA1CAA209AF2CD00B90C2A /* BaseViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BaseViewController.storyboard; sourceTree = "<group>"; };
+		1CCA1CAC209AF36300B90C2A /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1CCA1CAD209AF36400B90C2A /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		1CCA1CAF209AF71A00B90C2A /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1CCA1CB0209AF71A00B90C2A /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1CCA1CB4209AFE0800B90C2A /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		1CCA1CB6209AFE0800B90C2A /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		1CCA1CB7209AFE0800B90C2A /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		1CCA1CB8209AFE0800B90C2A /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		1CCA1CBC209AFECC00B90C2A /* IDCardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCardModel.h; sourceTree = "<group>"; };
+		1CCA1CBD209AFECC00B90C2A /* IDCardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardModel.m; sourceTree = "<group>"; };
+		1CCA1CC0209AFFDD00B90C2A /* IDCardScaningView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCardScaningView.h; sourceTree = "<group>"; };
+		1CCA1CC1209AFFDD00B90C2A /* IDCardScaningView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardScaningView.m; sourceTree = "<group>"; };
+		1CCA1CC4209B008800B90C2A /* RectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
+		1CCA1CC5209B008800B90C2A /* RectManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		1CCA1CCC209B013F00B90C2A /* UIImage+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		1CCA1CCD209B013F00B90C2A /* UIImage+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		1CCA1CCF209B018D00B90C2A /* UIAlertController+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
+		1CCA1CD0209B018D00B90C2A /* UIAlertController+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
+		1CCA1CD2209B01DB00B90C2A /* CaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		1CCA1CD3209B01DB00B90C2A /* CaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCA1CB9209AFE0800B90C2A /* libexidcardios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +131,14 @@
 		1CCA1C77209AE57D00B90C2A /* IDCardOCRDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1CCA1CB2209AFD8400B90C2A /* IDCardRecognition */,
 				1CCA1C78209AE57D00B90C2A /* AppDelegate.h */,
 				1CCA1C79209AE57D00B90C2A /* AppDelegate.m */,
-				1CCA1C7B209AE57D00B90C2A /* ViewController.h */,
-				1CCA1C7C209AE57D00B90C2A /* ViewController.m */,
+				1CCA1CAF209AF71A00B90C2A /* BaseViewController.h */,
+				1CCA1CB0209AF71A00B90C2A /* BaseViewController.m */,
+				1CCA1CAC209AF36300B90C2A /* TableViewController.h */,
+				1CCA1CAD209AF36400B90C2A /* TableViewController.m */,
+				1CCA1CAA209AF2CD00B90C2A /* BaseViewController.storyboard */,
 				1CCA1C7E209AE57D00B90C2A /* Main.storyboard */,
 				1CCA1C81209AE57E00B90C2A /* Assets.xcassets */,
 				1CCA1C83209AE57E00B90C2A /* LaunchScreen.storyboard */,
@@ -130,6 +164,85 @@
 				1CCA1C9E209AE57E00B90C2A /* Info.plist */,
 			);
 			path = IDCardOCRDemoUITests;
+			sourceTree = "<group>";
+		};
+		1CCA1CB2209AFD8400B90C2A /* IDCardRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1CD5209B01F000B90C2A /* Controller */,
+				1CCA1CC8209B00DF00B90C2A /* Category */,
+				1CCA1CC3209B007300B90C2A /* Tool */,
+				1CCA1CBF209AFF4200B90C2A /* View */,
+				1CCA1CBB209AFEAA00B90C2A /* Model */,
+				1CCA1CB3209AFE0800B90C2A /* libexidcard */,
+			);
+			path = IDCardRecognition;
+			sourceTree = "<group>";
+		};
+		1CCA1CB3209AFE0800B90C2A /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1CB4209AFE0800B90C2A /* libexidcardios.a */,
+				1CCA1CB5209AFE0800B90C2A /* dicts */,
+				1CCA1CB7209AFE0800B90C2A /* commondef.h */,
+				1CCA1CB8209AFE0800B90C2A /* excards.h */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		1CCA1CB5209AFE0800B90C2A /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1CB6209AFE0800B90C2A /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+		1CCA1CBB209AFEAA00B90C2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1CBC209AFECC00B90C2A /* IDCardModel.h */,
+				1CCA1CBD209AFECC00B90C2A /* IDCardModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CCA1CBF209AFF4200B90C2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1CC0209AFFDD00B90C2A /* IDCardScaningView.h */,
+				1CCA1CC1209AFFDD00B90C2A /* IDCardScaningView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CCA1CC3209B007300B90C2A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1CC4209B008800B90C2A /* RectManager.h */,
+				1CCA1CC5209B008800B90C2A /* RectManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1CCA1CC8209B00DF00B90C2A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1CCC209B013F00B90C2A /* UIImage+Extend.h */,
+				1CCA1CCD209B013F00B90C2A /* UIImage+Extend.m */,
+				1CCA1CCF209B018D00B90C2A /* UIAlertController+Extend.h */,
+				1CCA1CD0209B018D00B90C2A /* UIAlertController+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1CCA1CD5209B01F000B90C2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1CD2209B01DB00B90C2A /* CaptureViewController.h */,
+				1CCA1CD3209B01DB00B90C2A /* CaptureViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +351,8 @@
 				1CCA1C85209AE57E00B90C2A /* LaunchScreen.storyboard in Resources */,
 				1CCA1C82209AE57E00B90C2A /* Assets.xcassets in Resources */,
 				1CCA1C80209AE57D00B90C2A /* Main.storyboard in Resources */,
+				1CCA1CBA209AFE0800B90C2A /* zocr0.lib in Resources */,
+				1CCA1CAB209AF2CD00B90C2A /* BaseViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +377,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CCA1C7D209AE57D00B90C2A /* ViewController.m in Sources */,
+				1CCA1CBE209AFECC00B90C2A /* IDCardModel.m in Sources */,
+				1CCA1CC2209AFFDD00B90C2A /* IDCardScaningView.m in Sources */,
+				1CCA1CC6209B008800B90C2A /* RectManager.m in Sources */,
+				1CCA1CD4209B01DB00B90C2A /* CaptureViewController.m in Sources */,
+				1CCA1CB1209AF71A00B90C2A /* BaseViewController.m in Sources */,
 				1CCA1C88209AE57E00B90C2A /* main.m in Sources */,
 				1CCA1C7A209AE57D00B90C2A /* AppDelegate.m in Sources */,
+				1CCA1CAE209AF36400B90C2A /* TableViewController.m in Sources */,
+				1CCA1CD1209B018D00B90C2A /* UIAlertController+Extend.m in Sources */,
+				1CCA1CCE209B013F00B90C2A /* UIImage+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -435,10 +557,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VBC68XES2L;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IDCardOCRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCardOCRDemo/IDCardRecognition/libexidcard",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.driftSand.IDCardOCRDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,10 +580,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VBC68XES2L;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IDCardOCRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCardOCRDemo/IDCardRecognition/libexidcard",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.driftSand.IDCardOCRDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
