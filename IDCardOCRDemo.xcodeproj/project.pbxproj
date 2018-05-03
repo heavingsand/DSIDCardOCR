@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CCA1C7A209AE57D00B90C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C79209AE57D00B90C2A /* AppDelegate.m */; };
+		1CCA1C7D209AE57D00B90C2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C7C209AE57D00B90C2A /* ViewController.m */; };
+		1CCA1C80209AE57D00B90C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA1C7E209AE57D00B90C2A /* Main.storyboard */; };
+		1CCA1C82209AE57E00B90C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA1C81209AE57E00B90C2A /* Assets.xcassets */; };
+		1CCA1C85209AE57E00B90C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCA1C83209AE57E00B90C2A /* LaunchScreen.storyboard */; };
+		1CCA1C88209AE57E00B90C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C87209AE57E00B90C2A /* main.m */; };
+		1CCA1C92209AE57E00B90C2A /* IDCardOCRDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C91209AE57E00B90C2A /* IDCardOCRDemoTests.m */; };
+		1CCA1C9D209AE57E00B90C2A /* IDCardOCRDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA1C9C209AE57E00B90C2A /* IDCardOCRDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CCA1C8E209AE57E00B90C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CCA1C6D209AE57D00B90C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CCA1C74209AE57D00B90C2A;
+			remoteInfo = IDCardOCRDemo;
+		};
+		1CCA1C99209AE57E00B90C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CCA1C6D209AE57D00B90C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CCA1C74209AE57D00B90C2A;
+			remoteInfo = IDCardOCRDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CCA1C75209AE57D00B90C2A /* IDCardOCRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDCardOCRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCA1C78209AE57D00B90C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CCA1C79209AE57D00B90C2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CCA1C7B209AE57D00B90C2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CCA1C7C209AE57D00B90C2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CCA1C7F209AE57D00B90C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CCA1C81209AE57E00B90C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CCA1C84209AE57E00B90C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CCA1C86209AE57E00B90C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCA1C87209AE57E00B90C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CCA1C8D209AE57E00B90C2A /* IDCardOCRDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDCardOCRDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCA1C91209AE57E00B90C2A /* IDCardOCRDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardOCRDemoTests.m; sourceTree = "<group>"; };
+		1CCA1C93209AE57E00B90C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCA1C98209AE57E00B90C2A /* IDCardOCRDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDCardOCRDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CCA1C9C209AE57E00B90C2A /* IDCardOCRDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardOCRDemoUITests.m; sourceTree = "<group>"; };
+		1CCA1C9E209AE57E00B90C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CCA1C72209AE57D00B90C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CCA1C8A209AE57E00B90C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CCA1C95209AE57E00B90C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CCA1C6C209AE57D00B90C2A = {
+			isa = PBXGroup;
+			children = (
+				1CCA1C77209AE57D00B90C2A /* IDCardOCRDemo */,
+				1CCA1C90209AE57E00B90C2A /* IDCardOCRDemoTests */,
+				1CCA1C9B209AE57E00B90C2A /* IDCardOCRDemoUITests */,
+				1CCA1C76209AE57D00B90C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CCA1C76209AE57D00B90C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1C75209AE57D00B90C2A /* IDCardOCRDemo.app */,
+				1CCA1C8D209AE57E00B90C2A /* IDCardOCRDemoTests.xctest */,
+				1CCA1C98209AE57E00B90C2A /* IDCardOCRDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CCA1C77209AE57D00B90C2A /* IDCardOCRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1C78209AE57D00B90C2A /* AppDelegate.h */,
+				1CCA1C79209AE57D00B90C2A /* AppDelegate.m */,
+				1CCA1C7B209AE57D00B90C2A /* ViewController.h */,
+				1CCA1C7C209AE57D00B90C2A /* ViewController.m */,
+				1CCA1C7E209AE57D00B90C2A /* Main.storyboard */,
+				1CCA1C81209AE57E00B90C2A /* Assets.xcassets */,
+				1CCA1C83209AE57E00B90C2A /* LaunchScreen.storyboard */,
+				1CCA1C86209AE57E00B90C2A /* Info.plist */,
+				1CCA1C87209AE57E00B90C2A /* main.m */,
+			);
+			path = IDCardOCRDemo;
+			sourceTree = "<group>";
+		};
+		1CCA1C90209AE57E00B90C2A /* IDCardOCRDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1C91209AE57E00B90C2A /* IDCardOCRDemoTests.m */,
+				1CCA1C93209AE57E00B90C2A /* Info.plist */,
+			);
+			path = IDCardOCRDemoTests;
+			sourceTree = "<group>";
+		};
+		1CCA1C9B209AE57E00B90C2A /* IDCardOCRDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CCA1C9C209AE57E00B90C2A /* IDCardOCRDemoUITests.m */,
+				1CCA1C9E209AE57E00B90C2A /* Info.plist */,
+			);
+			path = IDCardOCRDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CCA1C74209AE57D00B90C2A /* IDCardOCRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCA1CA1209AE57E00B90C2A /* Build configuration list for PBXNativeTarget "IDCardOCRDemo" */;
+			buildPhases = (
+				1CCA1C71209AE57D00B90C2A /* Sources */,
+				1CCA1C72209AE57D00B90C2A /* Frameworks */,
+				1CCA1C73209AE57D00B90C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDCardOCRDemo;
+			productName = IDCardOCRDemo;
+			productReference = 1CCA1C75209AE57D00B90C2A /* IDCardOCRDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CCA1C8C209AE57E00B90C2A /* IDCardOCRDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCA1CA4209AE57E00B90C2A /* Build configuration list for PBXNativeTarget "IDCardOCRDemoTests" */;
+			buildPhases = (
+				1CCA1C89209AE57E00B90C2A /* Sources */,
+				1CCA1C8A209AE57E00B90C2A /* Frameworks */,
+				1CCA1C8B209AE57E00B90C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CCA1C8F209AE57E00B90C2A /* PBXTargetDependency */,
+			);
+			name = IDCardOCRDemoTests;
+			productName = IDCardOCRDemoTests;
+			productReference = 1CCA1C8D209AE57E00B90C2A /* IDCardOCRDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CCA1C97209AE57E00B90C2A /* IDCardOCRDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CCA1CA7209AE57E00B90C2A /* Build configuration list for PBXNativeTarget "IDCardOCRDemoUITests" */;
+			buildPhases = (
+				1CCA1C94209AE57E00B90C2A /* Sources */,
+				1CCA1C95209AE57E00B90C2A /* Frameworks */,
+				1CCA1C96209AE57E00B90C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CCA1C9A209AE57E00B90C2A /* PBXTargetDependency */,
+			);
+			name = IDCardOCRDemoUITests;
+			productName = IDCardOCRDemoUITests;
+			productReference = 1CCA1C98209AE57E00B90C2A /* IDCardOCRDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CCA1C6D209AE57D00B90C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = PanPan;
+				TargetAttributes = {
+					1CCA1C74209AE57D00B90C2A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1CCA1C8C209AE57E00B90C2A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1CCA1C74209AE57D00B90C2A;
+					};
+					1CCA1C97209AE57E00B90C2A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1CCA1C74209AE57D00B90C2A;
+					};
+				};
+			};
+			buildConfigurationList = 1CCA1C70209AE57D00B90C2A /* Build configuration list for PBXProject "IDCardOCRDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CCA1C6C209AE57D00B90C2A;
+			productRefGroup = 1CCA1C76209AE57D00B90C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CCA1C74209AE57D00B90C2A /* IDCardOCRDemo */,
+				1CCA1C8C209AE57E00B90C2A /* IDCardOCRDemoTests */,
+				1CCA1C97209AE57E00B90C2A /* IDCardOCRDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CCA1C73209AE57D00B90C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCA1C85209AE57E00B90C2A /* LaunchScreen.storyboard in Resources */,
+				1CCA1C82209AE57E00B90C2A /* Assets.xcassets in Resources */,
+				1CCA1C80209AE57D00B90C2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CCA1C8B209AE57E00B90C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CCA1C96209AE57E00B90C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CCA1C71209AE57D00B90C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCA1C7D209AE57D00B90C2A /* ViewController.m in Sources */,
+				1CCA1C88209AE57E00B90C2A /* main.m in Sources */,
+				1CCA1C7A209AE57D00B90C2A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CCA1C89209AE57E00B90C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCA1C92209AE57E00B90C2A /* IDCardOCRDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CCA1C94209AE57E00B90C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCA1C9D209AE57E00B90C2A /* IDCardOCRDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CCA1C8F209AE57E00B90C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CCA1C74209AE57D00B90C2A /* IDCardOCRDemo */;
+			targetProxy = 1CCA1C8E209AE57E00B90C2A /* PBXContainerItemProxy */;
+		};
+		1CCA1C9A209AE57E00B90C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CCA1C74209AE57D00B90C2A /* IDCardOCRDemo */;
+			targetProxy = 1CCA1C99209AE57E00B90C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CCA1C7E209AE57D00B90C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CCA1C7F209AE57D00B90C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CCA1C83209AE57E00B90C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CCA1C84209AE57E00B90C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CCA1C9F209AE57E00B90C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1CCA1CA0209AE57E00B90C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CCA1CA2209AE57E00B90C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBC68XES2L;
+				INFOPLIST_FILE = IDCardOCRDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.driftSand.IDCardOCRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CCA1CA3209AE57E00B90C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBC68XES2L;
+				INFOPLIST_FILE = IDCardOCRDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.driftSand.IDCardOCRDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CCA1CA5209AE57E00B90C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBC68XES2L;
+				INFOPLIST_FILE = IDCardOCRDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.driftSand.IDCardOCRDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDCardOCRDemo.app/IDCardOCRDemo";
+			};
+			name = Debug;
+		};
+		1CCA1CA6209AE57E00B90C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBC68XES2L;
+				INFOPLIST_FILE = IDCardOCRDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.driftSand.IDCardOCRDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDCardOCRDemo.app/IDCardOCRDemo";
+			};
+			name = Release;
+		};
+		1CCA1CA8209AE57E00B90C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBC68XES2L;
+				INFOPLIST_FILE = IDCardOCRDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.driftSand.IDCardOCRDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IDCardOCRDemo;
+			};
+			name = Debug;
+		};
+		1CCA1CA9209AE57E00B90C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBC68XES2L;
+				INFOPLIST_FILE = IDCardOCRDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.driftSand.IDCardOCRDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IDCardOCRDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CCA1C70209AE57D00B90C2A /* Build configuration list for PBXProject "IDCardOCRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCA1C9F209AE57E00B90C2A /* Debug */,
+				1CCA1CA0209AE57E00B90C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CCA1CA1209AE57E00B90C2A /* Build configuration list for PBXNativeTarget "IDCardOCRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCA1CA2209AE57E00B90C2A /* Debug */,
+				1CCA1CA3209AE57E00B90C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CCA1CA4209AE57E00B90C2A /* Build configuration list for PBXNativeTarget "IDCardOCRDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCA1CA5209AE57E00B90C2A /* Debug */,
+				1CCA1CA6209AE57E00B90C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CCA1CA7209AE57E00B90C2A /* Build configuration list for PBXNativeTarget "IDCardOCRDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCA1CA8209AE57E00B90C2A /* Debug */,
+				1CCA1CA9209AE57E00B90C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CCA1C6D209AE57D00B90C2A /* Project object */;
+}
